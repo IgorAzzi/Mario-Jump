@@ -1,0 +1,15 @@
+
+
+.container {
+    box-sizing:border-box;
+    height:100vh;
+    width: 100%vw;
+    background-image:url("/assets/mario\ vintage.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+

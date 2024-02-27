@@ -1,0 +1,59 @@
+
+
+    .cabecalho {
+        padding: 5% 0 0 0;
+        display: flex;
+    
+    }
+
+    .login_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%vh;
+        justify-content: center;
+        padding: 5% 0 0 15%;
+     }
+     
+     .login_header {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+         margin-bottom: 50px;
+     }
+
+    .login_header h1 {
+        color: aliceblue;
+        font-size: 3rem;
+     }
+
+     .login-input {
+        border: 2px solid black;
+        border-radius: 8px;
+        color: black;
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+        outline: none;
+        padding: 8px;
+        max-width: 300px;
+        width: 100%;
+     }
+
+     .login-button {
+        background-color: brown;
+        border-radius: 8px;
+        color: aliceblue;
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 8px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .login-button :disabled {
+        background-color:#eee;
+        color: #aaa;
+        cursor: auto;
+    }
+     
