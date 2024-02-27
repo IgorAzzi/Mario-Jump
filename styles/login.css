@@ -6,7 +6,7 @@
     
     }
 
-    .login_form {
+    .login-form {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -15,7 +15,7 @@
         padding: 5% 0 0 15%;
      }
      
-     .login_header {
+     .login__header {
          display: flex;
          align-items: center;
          flex-direction: column;
@@ -23,12 +23,12 @@
          margin-bottom: 50px;
      }
 
-    .login_header h1 {
+    .login__header h1 {
         color: aliceblue;
         font-size: 3rem;
      }
 
-     .login-input {
+     .login__input {
         border: 2px solid black;
         border-radius: 8px;
         color: black;
@@ -40,7 +40,7 @@
         width: 100%;
      }
 
-     .login-button {
+     .login__button {
         background-color: brown;
         border-radius: 8px;
         color: aliceblue;
@@ -51,7 +51,7 @@
         max-width: 300px;
     }
     
-    .login-button :disabled {
+    .login__button:disabled {
         background-color:#eee;
         color: #aaa;
         cursor: auto;
