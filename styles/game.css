@@ -35,23 +35,23 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation:pipe-animation 3s infinite linear;
+    animation:pipe-animation 1.5s infinite linear;
 
 }
 
-.pipe-2 {
-    position: absolute;
-    bottom: 0;
-    width: 80px;
-    animation:pipe-2-animation 15s infinite linear;
-
-}
 
 .mario {
    width: 150px;
    position: absolute;
    bottom:0;
-   animation: jump 500ms infinite ease-out;
+   
+}
+
+.jump {
+
+    animation: jump 500ms  ease-out;
+
+
 }
 
 @keyframes clouds-animation {
@@ -102,14 +102,3 @@
     } 
 }
 
-@keyframes pipe-2-animation {
-    from {
-        right: -80px;;
-
-    }
-
-    to {
-        right: 100%;
-
-    } 
-}
