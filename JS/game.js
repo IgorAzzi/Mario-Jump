@@ -7,6 +7,8 @@ const jump = () => {
     setTimeout ( () => {
         mario.classList.remove('jump');
     }, 500);
+
+
 }
 
 const loop = setInterval(() => {
@@ -31,8 +33,37 @@ const loop = setInterval(() => {
 
 
 }, 10);
+function seils() {
+    
+}
+document.addEventListener('keydown', (event)=> {
+    var audio = new Audio('../souds/button-124476.mp3');
+    
 
-document.addEventListener('keydown',jump);
+    if (event.code ==='Space' ||event.code === 'Enter') {
+        mario.classList.add('jump');
+        audio.play();
+        setTimeout ( () => {
+            mario.classList.remove('jump');
+        }, 500);
+    }
+
+    },false);
+
+    
+
+//jump.keydown= function (event) {
+
+    //if (event.code ==='Space' ||event.code === 'Enter') {
+  //      mario.classList.add('jump');
+   // }
+
+   
+
+
+
+
+
 
 
 
